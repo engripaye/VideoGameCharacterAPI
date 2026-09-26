@@ -14,16 +14,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fce270e0-5043-4f39-b03c-408298238828" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoGameCharacterAPI.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoGameCharacterAPI/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoGameCharacterAPI/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoGameCharacterAPI/VideoGameCharacterAPI.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoGameCharacterAPI/VideoGameCharacterAPI.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoGameCharacterAPI/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoGameCharacterAPI/appsettings.json" afterDir="false" />
-    </list>
+    <list default="true" id="fce270e0-5043-4f39-b03c-408298238828" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +23,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/engripaye/VideoGameCharacterAPI.git",
+    "accountId": "a6f05313-51ac-4801-9e56-dfb3dff32ce1"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -55,6 +52,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
@@ -139,6 +137,9 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="feat: init commit by ENGR. IPAYE" />
+    <MESSAGE value="feat: Project initailization settings commit by ENGR. IPAYE" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Project initailization settings commit by ENGR. IPAYE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
