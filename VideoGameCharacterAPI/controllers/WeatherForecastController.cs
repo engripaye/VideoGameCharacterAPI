@@ -1,12 +1,49 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace VideoGameCharacterAPI.controllers;
+namespace VideoGameCharacterAPI.Controllers;
 
-public class WeatherForecastController : Controller
+[ApiController]
+[Route("api/[controller]")]
+public class WeatherForecastController : ControllerBase
 {
-    // GET
-    public IActionResult Index()
+    private static readonly string[] Summaries =
     {
-        return View();
+        "Freezing",
+        "Bracing",
+        "Chilly",
+        "Cool",
+        "Mild",
+        "Warm",
+        "Balmy",
+        "Hot",
+        "Sweltering",
+        "Scorching"
+    };
+
+    [HttpGet]
+    public ActionResult<IEnumerable<WeatherForecast>> Get()
+    {
+        var forecast = Enumerable.Range(1, 5)
+            .Select(index => new WeatherForecast
+            {
+                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
+                TemperatureC = Random.Shared.Next(-20, 55),
+                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+            })
+            .ToArray();
+
+        return Ok(forecast);
     }
+}
+
+public class WeatherForecast
+{
+    public DateOnly Date { get; set; }
+
+    public int TemperatureC { get; set; }
+
+    public string? Summary { get; set; }
+
+    public int TemperatureF =>
+        32 + (int)(TemperatureC / 0.5556);
 }
