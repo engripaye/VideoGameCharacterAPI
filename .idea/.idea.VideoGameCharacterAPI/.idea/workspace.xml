@@ -23,6 +23,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "engripaye"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/engripaye/VideoGameCharacterAPI.git",
@@ -32,6 +38,66 @@
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0003147864803048" />
+      <entry key="MS500" value="1.2996672499955295" />
+      <entry key="S2" value="2.892796770570974" />
+      <entry key="S5" value="5.7713729383548" />
+      <entry key="S10" value="9.521425263730679" />
+      <entry key="S30" value="16.182526070045277" />
+      <entry key="S60" value="21.18789994030233" />
+      <entry key="M2" value="28.065485863145977" />
+      <entry key="M5" value="37.16482029545584" />
+      <entry key="M10" value="41.9146327505688" />
+      <entry key="M15" value="43.775662598264056" />
+      <entry key="M30" value="45.798744393372736" />
+      <entry key="H1" value="46.87602824658639" />
+      <entry key="H2" value="47.43203812414703" />
+      <entry key="H4" value="47.71450717203734" />
+      <entry key="D1" value="47.95220634037266" />
+      <entry key="W1" value="47.993167134050786" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.9669313799268452E-112" />
+      <entry key="MS500" value="4.557827052718117E-23" />
+      <entry key="S2" value="2.5983009999093768E-6" />
+      <entry key="S5" value="0.005832782526289377" />
+      <entry key="S10" value="0.07637265561894108" />
+      <entry key="S30" value="0.42427355600124467" />
+      <entry key="S60" value="0.6513628451187897" />
+      <entry key="M2" value="0.8070705329268248" />
+      <entry key="M5" value="0.9178349612899315" />
+      <entry key="M10" value="0.9580370354479684" />
+      <entry key="M15" value="0.9718252949152049" />
+      <entry key="M30" value="0.9858119977537328" />
+      <entry key="H1" value="0.9928806563498621" />
+      <entry key="H2" value="0.9964339698895569" />
+      <entry key="H4" value="0.998215392532872" />
+      <entry key="D1" value="0.9997023440123151" />
+      <entry key="W1" value="0.9999574722906116" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9529379279423976" />
+      <entry key="MS500" value="1.2872473554080368" />
+      <entry key="S2" value="2.8860211613835247" />
+      <entry key="S5" value="5.768026753299546" />
+      <entry key="S10" value="9.562175912519306" />
+      <entry key="S30" value="16.536142065703864" />
+      <entry key="S60" value="21.78287971160038" />
+      <entry key="M2" value="28.836554673484365" />
+      <entry key="M5" value="38.06577969183708" />
+      <entry key="M10" value="42.863738403249236" />
+      <entry key="M15" value="44.74141591195769" />
+      <entry key="M30" value="46.78145925609093" />
+      <entry key="H1" value="47.86734459221357" />
+      <entry key="H2" value="48.42768594298047" />
+      <entry key="H4" value="48.71232848245093" />
+      <entry key="D1" value="48.95184286356801" />
+      <entry key="W1" value="48.99311519991892" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6,
@@ -134,6 +200,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
