@@ -1,0 +1,6 @@
+GET http://localhost:5071/weatherforecast/
+Accept: application/json
+
+<> 2026-09-26T185958.200.json
+
+###
