@@ -15,9 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fce270e0-5043-4f39-b03c-408298238828" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VideoGameCharacterAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VideoGameCharacterAPI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoGameCharacterAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameCharacterAPI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoGameCharacterAPI/controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoGameCharacterAPI/controllers/WeatherForecastController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoGameCharacterAPI/Service/IVideoGameCharacterService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoGameCharacterAPI/Service/VideoGameCharacterService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,8 @@
 }]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/VideoGameCharacterAPI/Models/Character.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VideoGameCharacterAPI/Service/IVideoGameCharacterService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VideoGameCharacterAPI/Service/VideoGameCharacterService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VideoGameCharacterAPI/controllers/VideoGameCharacterController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VideoGameCharacterAPI/controllers/WeatherForecastController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -54,61 +55,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.006625871373722" />
-      <entry key="MS500" value="1.6292442684370543" />
-      <entry key="S2" value="3.7314613292103394" />
-      <entry key="S5" value="7.172435783338849" />
-      <entry key="S10" value="11.603967494393492" />
-      <entry key="S30" value="19.943668832525365" />
-      <entry key="S60" value="24.865406449120844" />
-      <entry key="M2" value="32.13166860667715" />
-      <entry key="M5" value="59.37934807820721" />
-      <entry key="M10" value="105.3581165579719" />
-      <entry key="M15" value="140.7241821594439" />
-      <entry key="M30" value="201.7907862382294" />
-      <entry key="H1" value="249.27014081157168" />
-      <entry key="H2" value="279.3987069599837" />
-      <entry key="H4" value="296.44742423042715" />
-      <entry key="D1" value="311.7971094874849" />
-      <entry key="W1" value="314.5396435291339" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="4.785815202495547E-230" />
+      <entry key="S2" value="1.3900014660842992E-57" />
+      <entry key="S5" value="6.756008774742053E-23" />
+      <entry key="S10" value="3.1591057168221195E-11" />
+      <entry key="S30" value="0.0026593956138924214" />
+      <entry key="S60" value="0.2827111862874626" />
+      <entry key="M2" value="3.0024856321066684" />
+      <entry key="M5" value="15.451954779467947" />
+      <entry key="M10" value="43.921359886352754" />
+      <entry key="M15" value="75.84473118789171" />
+      <entry key="M30" value="150.61131525706364" />
+      <entry key="H1" value="224.4149133129437" />
+      <entry key="H2" value="277.7832425634489" />
+      <entry key="H4" value="310.117410931731" />
+      <entry key="D1" value="340.50833586438046" />
+      <entry key="W1" value="346.06377768283284" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="2.0103524885275673E-258" />
-      <entry key="MS500" value="2.8887397630174986E-52" />
-      <entry key="S2" value="1.4519093575685474E-13" />
-      <entry key="S5" value="1.089365527122232E-5" />
-      <entry key="S10" value="0.005349957655367839" />
-      <entry key="S30" value="0.35837518324158896" />
-      <entry key="S60" value="1.0799135186585471" />
-      <entry key="M2" value="2.3623045545961325" />
-      <entry key="M5" value="6.602869387367116" />
-      <entry key="M10" value="13.077800932078228" />
-      <entry key="M15" value="17.826433138596357" />
-      <entry key="M30" value="25.620467798539398" />
-      <entry key="H1" value="31.379204616527993" />
-      <entry key="H2" value="34.9184630913421" />
-      <entry key="H4" value="36.88590445120773" />
-      <entry key="D1" value="38.63695637752559" />
-      <entry key="W1" value="38.94786778577832" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000121774" />
+      <entry key="S5" value="1.0000430746918134" />
+      <entry key="S10" value="1.0065631312506682" />
+      <entry key="S30" value="1.1872278124794124" />
+      <entry key="S60" value="1.432698705814105" />
+      <entry key="M2" value="1.6592592052733353" />
+      <entry key="M5" value="2.1895160923711443" />
+      <entry key="M10" value="4.903690761810958" />
+      <entry key="M15" value="8.602173571611488" />
+      <entry key="M30" value="17.62834236525034" />
+      <entry key="H1" value="26.515547477175037" />
+      <entry key="H2" value="32.865964733289246" />
+      <entry key="H4" value="36.6799216467761" />
+      <entry key="D1" value="40.24193451765137" />
+      <entry key="W1" value="40.890732529207675" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9790957327012038" />
-      <entry key="MS500" value="1.619919579190995" />
-      <entry key="S2" value="3.725835828533338" />
-      <entry key="S5" value="7.167848166310575" />
-      <entry key="S10" value="11.603806629286797" />
-      <entry key="S30" value="20.26627207065898" />
-      <entry key="S60" value="25.89584577837377" />
-      <entry key="M2" value="34.44484095944695" />
-      <entry key="M5" value="65.92999499642261" />
-      <entry key="M10" value="118.38467918744338" />
-      <entry key="M15" value="158.50438280762876" />
-      <entry key="M30" value="227.3783219406935" />
-      <entry key="H1" value="280.62926499684346" />
-      <entry key="H2" value="314.306018977989" />
-      <entry key="H4" value="333.3274441856023" />
-      <entry key="D1" value="350.43303925778076" />
-      <entry key="W1" value="353.48736349309075" />
+      <entry key="MS100" value="2.593796388892825E-13" />
+      <entry key="MS500" value="0.003039395220919603" />
+      <entry key="S2" value="0.23479929797398352" />
+      <entry key="S5" value="0.5601552131127796" />
+      <entry key="S10" value="0.7545950903851343" />
+      <entry key="S30" value="1.0941399660401818" />
+      <entry key="S60" value="1.6638661135138528" />
+      <entry key="M2" value="4.633892167337299" />
+      <entry key="M5" value="17.626290592578695" />
+      <entry key="M10" value="48.80669038973288" />
+      <entry key="M15" value="84.42506905188625" />
+      <entry key="M30" value="168.21717527747688" />
+      <entry key="H1" value="250.91356437210524" />
+      <entry key="H2" value="310.6387431802461" />
+      <entry key="H4" value="346.79149560889033" />
+      <entry key="D1" value="380.7492034230853" />
+      <entry key="W1" value="386.9543553402712" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -227,7 +228,8 @@
     <MESSAGE value="feat: controller updated commit by ENGR. IPAYE" />
     <MESSAGE value="feat: controller character updated commit by ENGR. IPAYE" />
     <MESSAGE value="refractor: controller character updated commit by ENGR. IPAYE" />
-    <option name="LAST_COMMIT_MESSAGE" value="refractor: controller character updated commit by ENGR. IPAYE" />
+    <MESSAGE value="feat: api controller, program initialization updated commit by ENGR. IPAYE" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: api controller, program initialization updated commit by ENGR. IPAYE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
